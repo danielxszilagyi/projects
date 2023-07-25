@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(255, 245, 232);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+button {
+  box-shadow: 4px 4px 0px 0px #000000;
+  background-color: #9b5ee1;
+  border: 1px solid #000000;
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: 0.1s;
+  font-size: 0.9rem;
+}
+button:hover {
+  background-color: #b67fff;
+  transition: 0.1s;
+}
+button:active {
+  position: relative;
+  top: 1px;
+}
+button#subM{
+   margin-top: 0.25rem;
+}
+input.gasCalcInput {
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 0.5px, solid;
+  border-color: #000000;
+  border-radius: 0;
+  box-shadow: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+#asd {
+  height: 400px;
+}
+#doge {
+  display: flex;
+}
+div.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+div.gasCalc {
+  border: 0.1rem;
+  border-style: solid;
+  padding: 1rem;
+  padding-top: 1.2rem;
+  background-color: rgb(255, 255, 255);
+  margin: 5px;
+  box-shadow: 11px 11px 0px 2px rgba(0, 0, 0, 1);
+}
+#eredmeny {
+  padding-top: 0.15rem;
+}
