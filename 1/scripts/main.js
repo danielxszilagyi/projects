@@ -11,6 +11,7 @@ let costOfTravel = {
   consumption: null,
   calcOfTravelCost: function () {
     this.sum = Math.round((this.km / 100) * this.consumption * this.gasPrice);
+    console.log(this.sum);
     return this.sum;
   },
   dataIn: function () {
